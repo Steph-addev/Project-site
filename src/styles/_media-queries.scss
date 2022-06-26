@@ -1,0 +1,32 @@
+@media only screen and (max-width: 425px) {
+  .home-page {
+    padding: 0;
+  }
+  .footer_social {
+    flex-direction: column;
+  }
+  .about-page_content-avatar {
+    text-align: center;
+  }
+  .form-elodie {
+    padding-left: 0px !important;
+  }
+  .form-choice_margin {
+    margin-bottom: 20px;
+  }
+  .row {
+    --bs-gutter-x: 0;
+  }
+}
+
+@media only screen and (min-width: 426px) {
+  .avatar {
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 725px) {
+  .content {
+    height: 85vh;
+  }
+}

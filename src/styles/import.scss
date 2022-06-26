@@ -1,0 +1,15 @@
+//Global styles
+@import "./general";
+@import "./media-queries";
+
+//Pages's style
+@import "./pages/home";
+@import "./pages/collections";
+@import "./pages/contact";
+@import "./pages/about";
+
+//Components's style
+@import "./components/header.scss";
+@import "./components/footer.scss";
+@import "./components/video.scss";
+@import "./components/logoAbout.scss";
