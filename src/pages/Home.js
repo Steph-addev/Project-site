@@ -21,7 +21,7 @@ function Home() {
   console.log(urlHome);
 
   return (
-    <div className="home-page container-fluid">
+    <div className="home-page container-fluid p-0">
       <Row className="home-page_join">
         {isHome.has("/home") === "true" ? (
           <Row className="home-page_header">

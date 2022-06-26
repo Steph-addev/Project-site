@@ -11,7 +11,7 @@ import Header from "../components/Header";
 
 function Appointment() {
   return (
-    <div className="appointment-page container-fluid">
+    <div className="appointment-page container-fluid p-0">
       <Row className="appointment-page_header">
         <Header />
       </Row>

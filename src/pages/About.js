@@ -13,7 +13,7 @@ import avatar from "../images/avatar.jpg";
 
 function About() {
   return (
-    <div className="about-page container-fluid">
+    <div className="about-page container-fluid p-0">
       <Row className="about-page_header">
         <Header />
       </Row>

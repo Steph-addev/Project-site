@@ -11,7 +11,7 @@ import Header from "../components/Header";
 
 function Contact() {
   return (
-    <div className="contact-page container-fluid">
+    <div className="contact-page container-fluid p-0">
       <Row className="contact-page_header">
         <Header />
       </Row>
@@ -31,12 +31,12 @@ function Contact() {
             </Row>
           </Row>
           <Row className="contact-page_content-form_answers mb-5">
-            <form className="form">
-              <Row className="form-name mb-5">
+            <form className="form-contact">
+              <Row className="form-name mb-5 ">
                 <input type="text" placeholder="NAME" className="mb-4"></input>
                 <input type="text" placeholder="FIRST NAME"></input>
               </Row>
-              <Row className="form-choice text-center mb-5">
+              <Row className="form-choice text-center mb-5 mx-4">
                 <Col className="form-choice_margin">
                   <button className="button-choice" type="button">
                     NEWS
@@ -58,7 +58,7 @@ function Contact() {
                   </button>
                 </Col>
               </Row>
-              <Row className="form-contact mb-5">
+              <Row className="form-email mb-5">
                 <input type="email" placeholder="email" className="mb-4"></input>
                 <input type="number" placeholder="phone"></input>
               </Row>

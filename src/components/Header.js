@@ -39,7 +39,7 @@ function Header() {
             </Col>
             <Col md={7}>
               <Link to="/home">
-                <img src={logo6}></img>
+                <img src={logo6} className="logoDesktop"></img>
                 <p className="engaging">ENGAGING IN ELEGANCE</p>
               </Link>
             </Col>
@@ -55,18 +55,10 @@ function Header() {
             </Col>
             {showMenu && (
               <div className="menu-mobile d-flex flex-column">
-                <Link to="/appointment" className="text-white">
-                  Make an appointment
-                </Link>
-                <Link to="/contact" className="text-white">
-                  Contact
-                </Link>
-                <Link to="/collections" className="text-white">
-                  Collections
-                </Link>
-                <Link to="/about" className="text-white">
-                  About
-                </Link>
+                <Link to="/appointment">Make an appointment</Link>
+                <Link to="/contact">Contact</Link>
+                <Link to="/collections">Collections</Link>
+                <Link to="/about">About</Link>
               </div>
             )}
             <Col sm={7}>
